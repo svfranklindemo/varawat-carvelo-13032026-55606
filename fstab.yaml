@@ -1,5 +1,5 @@
 mountpoints:
-  /:
-    url: "https://author-p121371-e1189853.adobeaemcloud.com/bin/franklin.delivery/AEMXSC/RefDemoEDS/main"
-    type: "markup"
-    suffix: ".html"
+   /:
+     url: "https://author-p107529-e1006538.adobeaemcloud.com/bin/franklin.delivery/svfranklindemo/varawat-carvelo-13032026-55606/main"
+     type: "markup"
+     suffix: ".html"
