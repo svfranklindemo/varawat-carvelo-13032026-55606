@@ -1,22 +1,22 @@
 {
   "mappings": [
-    "/content/wknd-universal/language-masters/en:/",
-    "/content/wknd-universal/language-masters/en/:/en/",
-    "/content/wknd-universal/language-masters/fr/:/fr/",
-    "/content/wknd-universal/language-masters/fr:/fr",
-    "/content/wknd-universal/language-masters/es/:/es/",
-    "/content/wknd-universal/language-masters/es:/es",
-    "/content/wknd-universal/language-masters/ja/:/ja/",
-    "/content/wknd-universal/language-masters/ja:/ja",
-    "/content/wknd-universal/language-masters/de/:/de/",
-    "/content/wknd-universal/language-masters/de:/de",
-    "/content/wknd-universal/configuration:/.helix/config.json",
-    "/content/wknd-universal/metadata:/metadata.json",
-    "/content/wknd-universal/redirects:/redirects.json",
-    "/content/wknd-universal/placeholders:/placeholders.json"
+    "/content/varawat-carvelo/language-masters/en:/",
+    "/content/varawat-carvelo/language-masters/en/:/en/",
+    "/content/varawat-carvelo/language-masters/fr/:/fr/",
+    "/content/varawat-carvelo/language-masters/fr:/fr",
+    "/content/varawat-carvelo/language-masters/es/:/es/",
+    "/content/varawat-carvelo/language-masters/es:/es",
+    "/content/varawat-carvelo/language-masters/ja/:/ja/",
+    "/content/varawat-carvelo/language-masters/ja:/ja",
+    "/content/varawat-carvelo/language-masters/de/:/de/",
+    "/content/varawat-carvelo/language-masters/de:/de",
+    "/content/varawat-carvelo/configuration:/.helix/config.json",
+    "/content/varawat-carvelo/metadata:/metadata.json",
+    "/content/varawat-carvelo/redirects:/redirects.json",
+    "/content/varawat-carvelo/placeholders:/placeholders.json"
   ],
   "includes": [
-    "/content/wknd-universal/",
-    "/content/dam/wknd-universal/"
+    "/content/varawat-carvelo/",
+    "/content/dam/varawat-carvelo/"
   ]
 }
