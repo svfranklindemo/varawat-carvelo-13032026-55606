@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p121371-e1189853.adobeaemcloud.com/bin/franklin.delivery/AEMXSC/RefDemoEDS/main"
+    type: "markup"
+    suffix: ".html"

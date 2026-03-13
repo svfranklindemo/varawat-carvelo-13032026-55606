@@ -1,0 +1,140 @@
+/* Model Detail block – car-website style layout */
+
+.model-detail-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.model-detail-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.model-detail-media {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--background-color, #f5f5f5);
+  aspect-ratio: 4/3;
+}
+
+.model-detail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.model-detail-image picture,
+.model-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.model-detail-image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  background: var(--background-color, #eaeaea);
+  border: 2px dashed #ccc;
+}
+
+.model-detail-placeholder-text {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.model-detail-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.model-detail-product-id {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-color, #666);
+}
+
+.model-detail-title {
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--heading-color, #1a1a1a);
+}
+
+.model-detail-price {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--link-color, #0066cc);
+}
+
+.model-detail-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.model-detail-spec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.model-detail-spec-label {
+  font-size: 0.875rem;
+  color: var(--text-color, #666);
+  flex-shrink: 0;
+}
+
+.model-detail-spec-value {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-align: right;
+  color: var(--heading-color, #1a1a1a);
+}
+
+.model-detail-description {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-color, #333);
+}
+
+.model-detail-description p {
+  margin: 0 0 0.75rem;
+}
+
+.model-detail-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive: stack on small screens */
+@media (width < 768px) {
+  .model-detail-main {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .model-detail-media {
+    aspect-ratio: 16/10;
+  }
+
+  .model-detail-wrapper {
+    padding: 1.5rem 1rem;
+  }
+}

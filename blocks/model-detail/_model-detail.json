@@ -1,0 +1,101 @@
+{
+  "definitions": [
+    {
+      "title": "Model Detail",
+      "id": "model-detail",
+      "model": "model-detail",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Model Detail",
+              "model": "model-detail",
+              "key-value": true
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "model-detail",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "productId",
+          "label": "Product ID",
+          "value": "",
+          "description": "Unique identifier for the vehicle model"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "modelName",
+          "label": "Model Name",
+          "value": "",
+          "description": "Display name of the car model"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "bodyType",
+          "label": "Body Type",
+          "value": "",
+          "description": "e.g. Sedan, SUV, Hatchback, Coupe"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "fuelType",
+          "label": "Fuel Type",
+          "value": "",
+          "description": "e.g. Petrol, Diesel, Electric, Hybrid"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "comfortLevel",
+          "label": "Comfort Level",
+          "value": "",
+          "description": "e.g. Standard, Premium, Luxury"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "priceRangeTag",
+          "label": "Price Range Tag",
+          "value": "",
+          "description": "e.g. From $25,000 or Price on Request"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "imageUrl",
+          "label": "Image",
+          "multi": false,
+          "description": "Main image for the vehicle model"
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "description",
+          "label": "Description",
+          "value": "",
+          "description": "Full description of the vehicle"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "color",
+          "label": "Color",
+          "value": "",
+          "description": "Exterior color name or hex for display"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}
